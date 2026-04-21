@@ -260,7 +260,7 @@
                 <div class="relative rounded-3xl bg-white p-6 shadow-md ring-1 ring-gray-200 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                     <div class="absolute -top-4 left-6 flex h-10 w-10 items-center justify-center rounded-full bg-brand-primary text-sm font-bold text-white shadow-lg">4</div>
                     <h3 class="mt-6 text-lg font-semibold text-gray-900">Start Learning</h3>
-                    <p class="mt-2 text-sm leading-6 text-gray-600">Get added to the WhatsApp group and join classes on Google Meet.</p>
+                    <p class="mt-2 text-sm leading-6 text-gray-600">Get added to our community and join our online classes.</p>
                 </div>
             </div>
         </div>

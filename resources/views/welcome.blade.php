@@ -379,11 +379,15 @@
             </p>
 
             <div class="flex flex-wrap gap-4 text-sm text-white/70">
-                <a href="{{ route('courses.index') }}" class="transition hover:text-white">Courses</a>
-                <a href="{{ route('project-requests.create') }}" class="transition hover:text-white">Hire Us</a>
-                <a href="{{ route('faq.index') }}" class="transition hover:text-white">FAQ</a>
-                <a href="{{ route('testimonials.index') }}" class="transition hover:text-white">Testimonials</a>
-            </div>
+    <a href="{{ route('courses.index') }}" class="transition hover:text-white">Courses</a>
+    <a href="{{ route('project-requests.create') }}" class="transition hover:text-white">Hire Us</a>
+    <a href="{{ route('faq.index') }}" class="transition hover:text-white">FAQ</a>
+    <a href="{{ route('testimonials.index') }}" class="transition hover:text-white">Testimonials</a>
+
+    {{-- New Links --}}
+    <a href="{{ route('privacy.policy') }}" class="transition hover:text-white">Privacy Policy</a>
+    <a href="{{ route('terms') }}" class="transition hover:text-white">Terms & Conditions</a>
+</div>
         </div>
 
         <div class="flex justify-center gap-6 mt-6">

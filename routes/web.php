@@ -31,6 +31,12 @@ Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
 
+Route::view('/privacy-policy','privacy-policy')->name('privacy.policy');
+
+
+Route::view('/terms-and-conditions','terms')->name('terms');
+
+
 Route::middleware(['auth'])->group(function () {
     Route::redirect('settings', 'settings/profile');
 
